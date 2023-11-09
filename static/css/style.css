@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.to-do-container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-wrapper{
+    padding: 20px 30px;
+    border: 1px solid rgb(88, 85, 85);
+    border-radius: 15px;
+    font-family: cursive;
+    background-color: rgba(227, 227, 227, 0.2);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.container-wrapper h1{
+    text-decoration: underline;
+}
+
+.container-wrapper input{
+    border: none;
+    outline: none;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.container-wrapper input[type = 'text']{
+    width: 300px;
+    border: 1px solid rgb(88, 85, 85)
+
+}
+
+.container-wrapper input[type = 'submit']{
+    background-color:rgb(35, 35, 250);
+    color: #fff;
+}   
+
+#list-wrapper div{
+    border: 1px solid rgb(88, 85, 85);
+    background-color: rgba(64, 62, 62, 0.2);
+    border-radius: 5px;
+    margin-bottom: 5px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    padding: 0px 10px 0px 20px;
+}
+
+#list-wrapper button{
+    border: none;
+    outline: none;
+    background-color: rgba(64, 62, 62, 0.2);
+    border-radius: 5px;
+    border: 1px solid rgb(88, 85, 85);
+}
+
+.list_text{
+    cursor: pointer;
+}
+
+
+
+
+/* this class add throug the JavaSript */
+.line-strik{
+    text-decoration: line-through;
+    text-decoration-color: black;
+}
+
+.non-line-strik{
+    text-decoration: none;
+}
